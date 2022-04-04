@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api", "api\api.csproj", "{DADE77B9-8FFB-4911-A3AB-23448B2A9FCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9E970E6-5147-4475-804A-89E989E3A3D2}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Desktop\create_tables_script.sql = ..\..\Desktop\create_tables_script.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ui", "ui", "{5314B264-4EE2-42BB-B945-72422AFAB7E9}"
+	ProjectSection(SolutionItems) = preProject
+		ui2\app.js = ui2\app.js
+		ui2\index.html = ui2\index.html
+		ui2\main.js = ui2\main.js
+		ui2\variables.js = ui2\variables.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{7008FD82-BDC1-4E20-A53F-ADEDDB0E7E92}"
+	ProjectSection(SolutionItems) = preProject
+		ui2\components\Home.js = ui2\components\Home.js
+		ui2\components\ReceivedMessages.js = ui2\components\ReceivedMessages.js
+		ui2\components\SentMessages.js = ui2\components\SentMessages.js
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{1EAEEFE8-EF43-46AB-9ADA-B18A27A63D0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.tests", "tests\api.tests\api.tests.csproj", "{ECEF68A5-20EF-4E8F-94FC-F3F70E0276F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DADE77B9-8FFB-4911-A3AB-23448B2A9FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DADE77B9-8FFB-4911-A3AB-23448B2A9FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DADE77B9-8FFB-4911-A3AB-23448B2A9FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DADE77B9-8FFB-4911-A3AB-23448B2A9FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EAEEFE8-EF43-46AB-9ADA-B18A27A63D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EAEEFE8-EF43-46AB-9ADA-B18A27A63D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EAEEFE8-EF43-46AB-9ADA-B18A27A63D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EAEEFE8-EF43-46AB-9ADA-B18A27A63D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECEF68A5-20EF-4E8F-94FC-F3F70E0276F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECEF68A5-20EF-4E8F-94FC-F3F70E0276F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECEF68A5-20EF-4E8F-94FC-F3F70E0276F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECEF68A5-20EF-4E8F-94FC-F3F70E0276F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7008FD82-BDC1-4E20-A53F-ADEDDB0E7E92} = {5314B264-4EE2-42BB-B945-72422AFAB7E9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3D32A49-AFCB-49AE-AC0A-22E2E2160D86}
+	EndGlobalSection
+EndGlobal
