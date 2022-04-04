@@ -1,1 +1,0 @@
-const SentMessages = { template: '<h1>Sent</h1>' }
